@@ -110,15 +110,6 @@ footer {
     position: relative;
 }
 
-footer p {
-    margin: 10px 0;
-}
-
-footer p a {
-    color: #ad0773;
+.footerName ul{
     text-decoration: none;
-}
-
-footer p a:hover {
-    text-decoration: underline;
 }

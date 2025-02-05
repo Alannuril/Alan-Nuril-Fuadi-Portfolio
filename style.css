@@ -31,6 +31,10 @@ header::after {
     background-color: #fff;
 }
 
+header h1 {
+    text-shadow: 1px 1px 2px pink;
+}
+
 /* Navigation styles */
 nav {
     margin-top: 20px;

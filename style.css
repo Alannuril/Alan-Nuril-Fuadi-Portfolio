@@ -7,15 +7,14 @@
 
 body {
     font-family: 'Times New Roman', serif;
-    background-color: hwb(309 85% 1% / 0.699);
+    background-color: hwb(0 92% 8% / 0.699);
     color: #333;
     line-height: 1.6;
 }
 
 /* Header styles */
 header {
-    background: linear-gradient(90deg, #e49ddf, #ff79c6);
-    color: #fff;
+    background: linear-gradient(90deg, #a18cd1, #fbc2eb);
     padding: 40px 0;
     text-align: center;
     position: relative;
@@ -79,7 +78,7 @@ section#about {
     margin-right: 30px;
     width: 180px;
     height: 140px;
-    border-radius: 20%; /* Adjusts image to a rounded shape */
+    border-radius: 20%; 
     object-fit: cover;
 }
 
@@ -114,7 +113,7 @@ section#about {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 700px;
     display: flex;
     align-items: center;
     margin-bottom: 40px;
@@ -157,7 +156,7 @@ section#about {
 
 /* Footer styles */
 footer {
-    background: linear-gradient(90deg, #ff79c6, #e49ddf);
+    background: linear-gradient(90deg, #a18cd1, #fbc2eb);
     color: #fff;
     text-align: center;
     padding: 20px 0;

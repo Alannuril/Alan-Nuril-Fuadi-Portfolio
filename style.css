@@ -52,9 +52,13 @@ nav a:hover {
 /* Section styles */
 section {
     padding: 60px 20px;
-    margin: 20px auto;
+    margin: 40px auto 20px;
     max-width: 1000px;
 }
+section#about {
+    margin-top: 40px; 
+}
+
 
 /* About and Experience section */
 .about, .experience {
@@ -98,6 +102,57 @@ section {
     content: '𓆝 𓆟 𓆞 𓆝 𓆟';
     font-size: 20px;
     margin-right: 10px;
+}
+
+/* Hero Style */
+.hero-image {
+    padding: 0;
+    background-image: linear-gradient(
+    rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)),
+    url("alangtg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.hero-text {
+    color: #fff;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero-text image {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.hero-btn{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    height: 25px;
+    width: 90px;
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.hero-btn:hover {
+    background-color: white;
+    color: black;
 }
 
 /* Footer styles */

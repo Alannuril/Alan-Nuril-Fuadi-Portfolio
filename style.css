@@ -59,8 +59,9 @@ section {
     max-width: 1280px;
 }
 
-section .about {
-    margin-top: 40px; 
+#about {
+    margin-top: 30px; 
+    margin-bottom: 30px; 
 }
 
 
@@ -70,7 +71,8 @@ section .about {
     padding: 20px;
     padding-bottom: 30px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
     border-radius: 8px;
     transition: transform 0.3s;
 }
@@ -122,11 +124,25 @@ section .about {
     height: 700px;
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
     box-sizing: border-box;
+    position: relative;
+}
+
+.gradient {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, black, transparent);
+    position: absolute;
+    opacity: 0.8;
+    z-index: 1;
+    pointer-events: none;
+    top: 0;
+    left: 0;
 }
 
 .hero-text {
+    position: relative; 
+    z-index: 2;
     color: #fff;
     text-align: center;
 }
@@ -142,14 +158,14 @@ section .about {
     line-height: 10px;
 }
 
-.hero-btn{
+.hero-btn {
     background-color: black;
     font-family: 'Times New Roman', Times, serif;
     color: white;
     font-weight: bold;
     border-radius: 3px;
     padding: 8px;
-    width: 150px;
+    width: 130px;
     border-color: white;
     transition: 0.4s;
     cursor: pointer;
@@ -159,12 +175,13 @@ section .about {
 }
 
 .hero-btn:hover {
-    background-color: white;
+    background-color: rgb(182, 182, 182);
     color: black;
 }
 
 .descriptions {
-    font-size: 22px;
+    font-size: 18px;
+    padding: 0 30px;
 }
 
 /* Footer styles */
@@ -223,6 +240,6 @@ footer {
 }
 
 .footerBottom .designed {
-    color: #ad0773; /* Warna untuk nama "alan" */
+    color: #ad0773; 
     font-weight: bold;
 }

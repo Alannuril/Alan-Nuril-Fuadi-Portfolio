@@ -11,7 +11,15 @@
 <body>
 
     <header>
-        <h1>My Portfolio</h1>
+        <div class="container-mode">
+            <h1>My Portfolio</h1>
+            <div class="icon-mode">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/></svg>    
+                </button>
+            </div>
+        </div>
         <nav>
             <a href="#about">About Me</a>
             <a href="#experience">Experience</a>
@@ -21,7 +29,7 @@
 
     <section id="about" class="about">
         <h2>About Me</h2>
-        <img class="img-My Photo" src="alangtg.jpeg" alt="My Photo">
+        <img class="img-My Photo" src="assets/alangtg.jpeg" alt="My Photo">
         <p>Hi, I'm Alan Nuril Fuadi, a dedicated student at Diponegoro University with a growing passion for web development. I enjoy creating clean, responsive websites and am constantly exploring new tools and technologies to improve my skills. Driven by curiosity and a desire for continuous learning, I thrive on tackling new challenges and adapting to the latest trends in tech. Whether it's building engaging user interfaces or learning the latest web development frameworks, I’m always eager to expand my knowledge and contribute to meaningful projects.</p>
     </section>
 
@@ -29,19 +37,19 @@
         <h2>My Experience๋࣭ ⭑⚝</h2>
     
         <div class="experience-item">
-            <img src="alanHMIF.jpeg" alt="HMIF Experience Photo" style="float: left; margin-right: 20px; width: 150px; height: 100px; border-radius: 20%; object-fit: cover;">
+            <img src="assets/alanHMIF.jpeg" alt="HMIF Experience Photo" style="float: left; margin-right: 20px; width: 150px; height: 100px; border-radius: 20%; object-fit: cover;">
             <h3>HMIF Undip</h3>
             <p>I contributed as a Research and Development Expert staff member at HMIF Universitas Diponegoro 2024, focusing on analyzing current trends, developing innovative strategies, and supporting the growth of organizational initiatives.</p>
         </div>
     
         <div class="experience-item">
-            <img src="alanANFOR.JPG" alt="Anforcom Experience Photo" style="float: left; margin-right: 20px; width: 150px; height: 100px; border-radius: 20%; object-fit: cover;">
+            <img src="assets/alanANFOR.JPG" alt="Anforcom Experience Photo" style="float: left; margin-right: 20px; width: 150px; height: 100px; border-radius: 20%; object-fit: cover;">
             <h3>ANFORCOM</h3>
             <p>I served as a Liaison Officer for Anforcom HMIF Universitas Diponegoro 2024, where I coordinated between participants and event organizers, ensured clear communication, and supported the smooth execution of event logistics.</p>
         </div>
     
         <div class="experience-item">
-            <img src="alanKMB.jpeg" alt="KMB Semarang Road Show Experience Photo" style="float: left; margin-right: 20px; width: 150px; height: 100px; border-radius: 20%; object-fit: cover;">
+            <img src="assets/alanKMB.jpeg" alt="KMB Semarang Road Show Experience Photo" style="float: left; margin-right: 20px; width: 150px; height: 100px; border-radius: 20%; object-fit: cover;">
             <h3>KMB Semarang</h3>
             <p>I served as a Public Relations staff member for the KMB Semarang Road Show 2024, where I was responsible for managing communication strategies, engaging with the public, and enhancing the event's visibility through various media channels.</p>
         </div>
@@ -56,22 +64,22 @@
         <div class="cells">
 
             <div class="cell">
-                <img class="img" src="css-3.png" alt="">
+                <img class="img" src="assets/css-3.png" alt="">
                 <span>CSS</span>
             </div>
 
             <div class="cell">
-                <img class="img" src="html-logoo.png" alt="">
+                <img class="img" src="assets/html-logoo.png" alt="">
                 <span>HTML</span>
             </div>
 
             <div class="cell">
-                <img class="img" src="React-icon.png" alt="">
+                <img class="img" src="assets/React-icon.png" alt="">
                 <span>React</span>
             </div>
 
             <div class="cell">
-                <img class="img" src="tailwind-logo.png" alt="">
+                <img class="img" src="assets/tailwind-logo.png" alt="">
                 <span>Tailwind</span>
             </div>
 
@@ -83,7 +91,9 @@
         <div class="hero-text">
             <h1>I'am Alan Nuril Fuadi</h1>
             <h2>I'am a front-End devloper</h2>
-            <p class="descriptions">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore reprehenderit sapiente quaerat minima earum non est cum dolor aperiam, eligendi, eius, perspiciatis voluptate asperiores rerum dignissimos autem ipsam nobis aliquam!</p>
+            <p class="descriptions">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore reprehenderit sapiente quaerat minima earum non est cum dolor aperiam, eligendi, eius, perspiciatis voluptate asperiores rerum dignissimos autem ipsam nobis aliquam!
+            </p>
             <button class="hero-btn">My CV</button>
         </div>
         <div class="gradient"></div>
